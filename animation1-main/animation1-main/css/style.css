@@ -1,0 +1,48 @@
+.svg1 {
+    width: 100px;
+}
+
+.svg2{
+    width: 100px;
+    height: 100px;
+    background: url(../img/backpack3.svg);
+    background-size: cover;
+}
+
+.svg3 {
+    width: 100px;
+    height: 100px;
+    margin: 200px;
+    fill:plum;
+    stroke: purple;
+    stroke-width: 0.2px;
+
+    transform:skewY(20deg);
+}
+
+.svg4 {
+    font-size: 100px;
+    color: brown;
+}
+
+.svg5 {
+    font-size: 100px;
+    color: blue;
+}
+
+
+.svg6::after {
+    content: "\F151";
+    font-family: "bootstrap-icons";
+    color: red;
+}
+
+.svg7 {
+    width: 100px;
+    height: 100px;
+}
+
+.pict{
+    width: 300px;
+    clip-path: polygon(50% 0%,70% 15%,70% 2%,90% 2%,90% 30%,100% 40%,100% 100%,65% 100%,65% 65%,35% 65%,35% 100%,0% 100%,0% 40%);
+}
